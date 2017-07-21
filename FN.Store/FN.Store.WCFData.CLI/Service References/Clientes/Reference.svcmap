@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="874ef15b-c7d1-4d55-b86f-58f50c10b5c5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://dzstore-wcf.azurewebsites.net/service/clienteservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ClienteService.disco" MetadataType="Disco" ID="69e64a98-a19a-46b2-a7d8-17885e43d34a" SourceId="1" SourceUrl="http://dzstore-wcf.azurewebsites.net/service/ClienteService.svc?disco" />
+    <MetadataFile FileName="ClienteService.xsd" MetadataType="Schema" ID="993b1c19-74be-470d-81a0-e82ab03cce18" SourceId="1" SourceUrl="http://dzstore-wcf.azurewebsites.net/service/ClienteService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ClienteService1.xsd" MetadataType="Schema" ID="45026a20-a0d1-498e-b125-a9b3f3a79c42" SourceId="1" SourceUrl="http://dzstore-wcf.azurewebsites.net/service/ClienteService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ClienteService.wsdl" MetadataType="Wsdl" ID="b5a4f8c1-0603-4d99-9b86-049d006026ad" SourceId="1" SourceUrl="http://dzstore-wcf.azurewebsites.net/service/ClienteService.svc?wsdl" />
+    <MetadataFile FileName="ClienteService2.xsd" MetadataType="Schema" ID="d74d8c23-7639-42ff-9928-0e565ce80132" SourceId="1" SourceUrl="http://dzstore-wcf.azurewebsites.net/service/ClienteService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
